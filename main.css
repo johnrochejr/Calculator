@@ -1,18 +1,27 @@
 body {
-  margin: 3em;
   width: 100%;
-  background-color:
+  font-family: Helvetica;
+  margin: 3em;
+  background: #333;
+}
 
+main {
+  height: 50%
 }
 
 .calculator {
-   border: solid thin gray;
-   background-color: white;
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: row;
-   justify-content: space-around;
-   align-items: center;
-   width: 65%;
-   height: 32em;
+  width: 50%;
+  height:50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: thin solid gray;
+  margin: 0 auto;
+  font-size: 24px;
  }
+
+button {
+  font-size: 24px;
+  width: 23%;
+  padding: 1em;
+}
