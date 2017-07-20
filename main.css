@@ -1,0 +1,18 @@
+body {
+  margin: 3em;
+  width: 100%;
+  background-color:
+
+}
+
+.calculator {
+   border: solid thin gray;
+   background-color: white;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   width: 65%;
+   height: 32em;
+ }
