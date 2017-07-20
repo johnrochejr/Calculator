@@ -8,35 +8,35 @@
   <body>
     <main>
       <div class="calculator">
-        <div class="row1">
-          <button class="operator" type="button" value="c">C</button>
-        </div>
+        <div class="row">
+          <button name="clear" type="button" value="C" onclick="calc(this)">C</button>
           <div class="display">
             <p>Display</p>
           </div>
-        <div class="row">
-          <button class="num" type="button" value="7" onclick="calc(this)">7</button>
-          <button class="num" type="button" value="8" onclick="calc(this)">8</button>
-          <button class="num" type="button" value="9" onclick="calc(this)">9</button>
-          <button class="operator" type="button" value="/">/</button>
         </div>
         <div class="row">
-          <button class="num" type="button" value="4">4</button>
-          <button class="num" type="button" value="5">5</button>
-          <button class="num" type="button" value="6">6</button>
-          <button class="operator" type="button" value="X">X</button>
+          <button name="num" type="button" value="7" onclick="calc(this)">7</button>
+          <button name="num" type="button" value="8" onclick="calc(this)">8</button>
+          <button name="num" type="button" value="9" onclick="calc(this)">9</button>
+          <button name="operator" type="button" value="/" onclick="calc(this)">/</button>
         </div>
         <div class="row">
-          <button class="num" type="button" value="1">1</button>
-          <button class="num" type="button" value="2">2</button>
-          <button class="num" type="button" value="3">3</button>
-          <button class="operator" type="button" value="-">-</button>
+          <button name="num" type="button" value="4" onclick="calc(this)" >4</button>
+          <button name="num" type="button" value="5" onclick="calc(this)">5</button>
+          <button name="num" type="button" value="6" onclick="calc(this)">6</button>
+          <button name="operator" type="button" value="X" onclick="calc(this)">X</button>
         </div>
         <div class="row">
-          <button class="num" type="button" value="0">0</button>
-          <button class="operator" type="button" value=".">.</button>
-          <button class="operator" type="button" value="=">=</button>
-          <button class="operator" type="button" value="+">+</button>
+          <button name="num" type="button" value="1" onclick="calc(this)">1</button>
+          <button name="num" type="button" value="2" onclick="calc(this)">2</button>
+          <button name="num" type="button" value="3" onclick="calc(this)">3</button>
+          <button name="operator" type="button" value="-" onclick="calc(this)">-</button>
+        </div>
+        <div class="row">
+          <button name="num" type="button" value="0" onclick="calc(this)">0</button>
+          <button name="operator" type="button" value="." onclick="calc(this)">.</button>
+          <button name="operator" type="button" value="=" onclick="calc(this)">=</button>
+          <button name="operator" type="button" value="+" onclick="calc(this)">+</button>
         </div>
       </div>
     </main>

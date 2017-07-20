@@ -3,6 +3,7 @@ body {
   font-family: Helvetica;
   margin: 3em;
   background: #333;
+  color: white;
 }
 
 main {
@@ -10,11 +11,10 @@ main {
 }
 
 .calculator {
-  width: 50%;
+  width: 15em;
   height:50%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: column;
   border: thin solid gray;
   margin: 0 auto;
   font-size: 24px;
@@ -24,4 +24,9 @@ button {
   font-size: 24px;
   width: 23%;
   padding: 1em;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
 }
