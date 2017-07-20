@@ -40,12 +40,27 @@
 
  //   for event listener: click, then function
 
- let button = document.querySelector(".num").value;
-
- console.log(button);
 
 
+// button.addEventListener("click", calc(button.value));
+ // select buttons so
+ // I can add event listener
 
+ // simple test to see if selector is working corretly
+ // console.log(button);
+
+function calc(buttonInfo) {
+  // let button = document.querySelector("button");
+  console.log(buttonInfo.value);
+}
+
+//  button.addEventListener("click", callBack => {
+//
+// })
+ // the callback function will execute when the event
+ // is triggered
+
+// for loop through all buttons
 
 
 
