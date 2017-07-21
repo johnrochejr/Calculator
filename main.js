@@ -60,7 +60,7 @@ function calc(buttonInfo) {
 	} else {
 		return;
 	}
-}
+
 	// We are saying that "this" is now buttonInfo
 	// let button = document.querySelector("button");
 	// console.log(buttonInfo.value);
