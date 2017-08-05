@@ -29,6 +29,15 @@ button {
   outline: none;
 }
 
+.operator {
+  background-color: #D8BFD8;
+}
+
+.cancel {
+  background-color: #B0C4DE;
+  color: #FFF5EE;
+}
+
 button:hover {
   background-color: #E0FFFF;
 }
