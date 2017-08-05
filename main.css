@@ -1,13 +1,9 @@
 body {
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   font-family: Helvetica;
-  margin: 3em;
-  background: #333;
-  color: white;
-}
-
-main {
-  height: 50%
 }
 
 .calculator {
@@ -16,14 +12,20 @@ main {
   display: flex;
   flex-direction: column;
   border: thin solid gray;
+  border-radius: .2em;
   margin: 0 auto;
   font-size: 24px;
  }
 
 button {
-  font-size: 24px;
-  width: 23%;
-  padding: 1em;
+  font-size: 1.5em;
+  width: 3em;
+  margin: 0;
+  height: 3em;
+  background-color: #ADD8E6;
+  border: thin solid #F5F5F5;
+  border-radius: .1em;
+
 }
 
 .row {
