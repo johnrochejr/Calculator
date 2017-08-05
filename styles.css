@@ -38,6 +38,10 @@ button {
   color: #FFF5EE;
 }
 
+.evaluate {
+  background-color: #F0F8FF;
+}
+
 button:hover {
   background-color: #E0FFFF;
 }
