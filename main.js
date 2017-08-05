@@ -3,7 +3,9 @@ let input = "";
 
 // Variable to hold inputs ready to calculate
 let inputsReadyToCalc = [];
-let display = document.getElementById("display-text")
+let display = document.getElementById("display-text");
+
+
 
 
 

@@ -23,12 +23,28 @@ button {
   margin: 0;
   height: 3em;
   background-color: #ADD8E6;
+  color: #666666;
   border: thin solid #F5F5F5;
   border-radius: .1em;
+}
 
+button:hover {
+  background-color: #E0FFFF;
+}
+
+.display {
+  background-color: #FFF5EE;
+  font-size: 1.5em;
+  color: #666666;
+  width: 9.10em;
+  height: 2.9em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: .1em;
+  border: 1px solid #F5DEB3;
 }
 
 .row {
   display: flex;
-  flex-direction: row;
 }
