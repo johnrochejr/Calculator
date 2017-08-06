@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-family: Helvetica;
+  font-family: "brandon-grotesque", "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
 }
 
 .calculator {
@@ -29,17 +29,13 @@ button {
   outline: none;
 }
 
-.operator {
+.operator, .evaluate {
   background-color: #D8BFD8;
 }
 
 .cancel {
   background-color: #B0C4DE;
   color: #FFF5EE;
-}
-
-.evaluate {
-  background-color: #F0F8FF;
 }
 
 button:hover {
